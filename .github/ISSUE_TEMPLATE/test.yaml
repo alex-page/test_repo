@@ -15,6 +15,6 @@ body:
     - 1
     - 2
     - All of them
-issue_body: false
+issue_body: true
 
 ---
