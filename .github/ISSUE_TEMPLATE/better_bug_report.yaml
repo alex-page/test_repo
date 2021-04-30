@@ -1,11 +1,18 @@
-name: Better Bug report
-about: Create a report to help us improve the aircraft
-labels: Bug
-assignees: ''
+---
+name: Cat Lady Membership Application
+description: Tell us what qualifies you to be a registered cat fancier.
 body:
 - type: textarea
-  id: logs
   attributes:
-    label: build_info.json
-    description: Copy the content of the build_info.json
-    render: json
+    label: Your favorite cat
+    placeholder: "Examples: Garfield, Maru, Mr. Mistoffolees"
+  validations:
+    required: true
+- type: dropdown
+  attributes:
+    label: How many rooms in your house are dedicated to cats?
+    options:
+    - 1
+    - 2
+    - All of them
+issue_body: false
