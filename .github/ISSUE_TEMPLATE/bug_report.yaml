@@ -1,0 +1,11 @@
+name: Bug report
+about: Create a report to help us improve the aircraft
+labels: Bug
+assignees: ''
+body:
+- type: textarea
+  id: logs
+  attributes:
+    label: build_info.json
+    description: Copy the content of the build_info.json
+    render: json
