@@ -2,4 +2,4 @@ blank_issues_enabled: false
 contact_links:
   - name: Installer
     url: https://github.com/flybywiresim/installer/issues/new/choose
-    about: You have issues, found a bug or want to share your ideas about the installer?
+    about: File a bug report or suggest a new feature for the installer
