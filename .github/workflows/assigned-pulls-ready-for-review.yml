@@ -14,5 +14,5 @@ jobs:
       - uses: alex-page/github-project-automation-plus@v0.7.1
         with:
           project: Quality Assurance
-          column: 🟡 Code review: Ready for review
+          column: "🟡 Code review: Ready for review"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
