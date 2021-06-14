@@ -19,4 +19,4 @@ jobs:
         with:
           project: Backlog
           column: Triage
-          repo-token: ${{ secrets.WORKFLOWS }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
