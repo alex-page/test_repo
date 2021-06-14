@@ -13,6 +13,6 @@ jobs:
     steps:
       - uses: alex-page/github-project-automation-plus@v0.7.1
         with:
-          project: Backlog
-          column: To do
+          project: test
+          column: triage
           repo-token: ${{ secrets.GITHUB_TOKEN }}
