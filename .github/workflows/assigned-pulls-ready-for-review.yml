@@ -15,4 +15,4 @@ jobs:
         with:
           project: Backlog
           column: To do
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
