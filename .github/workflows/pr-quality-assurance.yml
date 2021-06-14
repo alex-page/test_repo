@@ -5,6 +5,7 @@ on:
     types: [opened]
     
 permissions:
+  contents: read
   actions: write
   pull-requests: write
   issues: write
