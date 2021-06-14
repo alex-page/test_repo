@@ -1,5 +1,5 @@
 name: Add a new GitHub Project card linked to a GitHub issue to the specified project column
-on: 
+on:
   pull_request:
     types:
       - opened
